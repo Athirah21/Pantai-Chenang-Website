@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Cursive;
+}
+body, html{
+    height: 100%;
+    margin: 0;
+}
+
+body{
+    background-image: url("images/pantai-cenang.jpg");
+    height: 100%;
+    background-repeat: repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.navbar ul{
+    list-style: none;
+    background-color: #A0D995;
+    padding: 0%;
+    margin: 0%;
+    overflow: hidden;
+    position: relative;
+}
+
+.navbar ul li{
+    float: left;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 11px 59px;
+    margin: auto;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar ul li a:hover{
+    background-color: #F6E3C5;
+}
+
+
+p1 {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    font-style: italic;
+    font-size: 40px;
+    font-family: cursive;
+} 
+
+p2{
+    color:black;
+    font-weight: bold;
+    font-size:20px;
+    font-family: cursive;
+}
+p2 li {
+    display: inline-block;
+    background-color: #F6E3C5;
+    padding: 20px;
+    margin: 20px;
+    font-size: medium;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: cursive;
+}
+
+table {
+    font-family: cursive;
+    border-collapse: collapse;
+    width: 80%;
+    position: center;
+  }
+  
+  td, th {
+    border: 1px solid black;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  tr:nth-child(even) {
+    background-color:#6cc4a1;
+  }
+
+  table li {
+    display: inline-block;
+    background-color: #F6E3C5;
+    padding: 20px;
+    margin: 20px;
+    font-size: medium;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: cursive;
+  }
+
+  .footer {
+    position:static;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:#4cacbc;
+    color: white;
+    text-align: center;
+ }

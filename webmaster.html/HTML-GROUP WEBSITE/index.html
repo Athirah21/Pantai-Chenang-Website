@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>GROUP 8-PANTAI CHENANG LOCAL COMMUNITY WEBSITE</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <br>
+    <strong> <center><p1>LET'S EXPLORE PANTAI CHENANG COMMUNITY</p1></center></strong>
+    <br>
+    <div class="navbar">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="History.html">HISTORY</a></li>
+                <li><a href="Activity.html">ACTIVITY</a></li>
+                <li><a href="Accomodation.html">ACCOMODATION</a></li>
+                <li><a href="Marketplace.html">MARKETPLACE</a></li>
+                <li><a href="Gallery.html">GALLERY</a></li>
+            </ul>
+    </div>
+    <br>
+    <br>
+    <center><body onload="startTime()">
+
+        <h2>Clock</h2>
+        
+        <div id="txt"></div>
+        
+        <script>
+        function startTime() {
+          const today = new Date();
+          let h = today.getHours();
+          let m = today.getMinutes();
+          let s = today.getSeconds();
+          m = checkTime(m);
+          s = checkTime(s);
+          document.getElementById('txt').innerHTML =  h + ":" + m + ":" + s;
+          setTimeout(startTime, 1000);
+        }
+        
+        function checkTime(i) {
+          if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+          return i;
+        }
+        </script></center>
+        <br>
+        <center><img src="images/LOGO.png" width="20%"</center>
+        <br>
+        <p>~> Pantai Chenang Local Community Website's Logo <~</p>
+    </div>
+    <br><br><br>
+    <h1>PANTAI CHENANG,<br> 
+      LANGKAWI LOCAL COMMUNITY WEBSITE</h1>
+
+    <br><br><br><br>
+    <div class="footer">
+      <p>Copyright &copy 2022<br>
+        Recommended Browser: Google Chrome. Resolution 1920 x 1080<br> 
+        Last update: 21 July 2022.</p>
+    </div>
+</body>
+</html>
